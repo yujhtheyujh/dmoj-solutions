@@ -1,0 +1,1 @@
+exec("print(['yes','no'][z>z*z])".replace('z','int(input())'))
