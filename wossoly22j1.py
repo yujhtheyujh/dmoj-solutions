@@ -1,0 +1,1 @@
+print("Time to go shopping!" if int(input()) >= sum(n := (list(map(int, input().split())))) + n[1] * 3 + n[2] * 6 else "You cannot afford them all.")

@@ -1,0 +1,1 @@
+print(pow(2,int(input())-1,(m:=10**9+7))*sum(map(int,input().split()))%m)

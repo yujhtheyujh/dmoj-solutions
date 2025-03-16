@@ -1,0 +1,1 @@
+l=[int(input(f"? 1 {i+2}\n"))for i in range(int(input())-1)];b=l[:];b.sort();a=min(b[0],b[1]-b[0]);print("!",a,*[i//a for i in l])

@@ -1,0 +1,1 @@
+print(__import__('functools').reduce(lambda a,b:a+b**6,range(int(input())+1))%10**9)

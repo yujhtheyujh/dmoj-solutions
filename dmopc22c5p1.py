@@ -1,0 +1,1 @@
+print(0if(n:=int(input()))<4 else(e:=(n+2)//6*2)*(n-e)*(n-e-1)//4)

@@ -1,0 +1,1 @@
+for i in [a:=input]*int(a()):print(sum(all(j%k for k in range(2,j))*j>1for j in range(*map(int,a().split()))))
