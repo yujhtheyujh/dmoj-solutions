@@ -1,0 +1,1 @@
+f=lambda:map(int,input().split());H,W=f();p=print;p("?",">"*W+"v"*H);a,b=f();a<H-1!=p("!",a+1,W-1)or b<W-1!=p("!",0,b+1)or(p("?",(">"*W+"v"+"<"*W+"^<v")*H),e:=[*f()],p("!",e[0]+1,e[1]))
