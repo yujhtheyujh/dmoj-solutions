@@ -1,0 +1,1 @@
+print((2-((b:=sum(a:=[*map(lambda W:int(W)%3,[*input()])])%3)in a))*(b>0))
