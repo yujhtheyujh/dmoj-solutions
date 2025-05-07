@@ -1,0 +1,1 @@
+[a:=[0]*2,[a.__setitem__(slice(2),(max(a),a[0]+int(input())))for _ in' '*int(input())],print(max(a))]
